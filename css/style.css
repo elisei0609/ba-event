@@ -277,6 +277,7 @@ ul {
 	margin: 0;
 	font-weight: 900;
 	line-height: 1;
+	transition: all, 0.3s, ease, 0.2s;
 }
 p.first,
 p.sixth {
@@ -346,4 +347,7 @@ p.fifth:after {
 .ba-about__btn:hover {
 	background-color: #000000;
 	color: #fff;
+}
+.ba-about__list-item:hover {
+	font-size: 3.125rem;
 }
