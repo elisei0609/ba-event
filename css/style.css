@@ -343,3 +343,7 @@ p.fifth:after {
 	font-weight: 700;
 	margin-bottom: 150px;
 }
+.ba-about__btn:hover {
+	background-color: #000000;
+	color: #fff;
+}
