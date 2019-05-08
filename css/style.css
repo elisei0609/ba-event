@@ -432,7 +432,11 @@ p.fifth:after {
   .ba-battles__small-text {
 	  padding: 15px 0 25px 0;
   }
-  .ba-battles__countdown div:nth-child(1) {
+  .countdown_container {
+	  border: 2px solid #4c0241;
+  }
+  .countdown_container:hover {
 	  background-color: inherit;
 	  border: 2px solid rgba(255,255,255, 0.671);
+	  
   }
