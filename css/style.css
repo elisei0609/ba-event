@@ -386,7 +386,18 @@ p.fifth:after {
 	  margin-bottom: 100px;
   }
   .ba-battles__list ul li {
+	 transition: transform 0.2s;
+
+  }
+  .card-item {
+	  transition: transform 0.2s;
+	  width: 100%;
+	  
+  }
+  .card {
 	  width: 25.43%;
+	  perspective: 1000px;
+	  transform-style: preserve-3d;
   }
   
   .ba-battles__list img {
@@ -439,4 +450,31 @@ p.fifth:after {
 	  background-color: inherit;
 	  border: 2px solid rgba(255,255,255, 0.671);
 	  
+  }
+  .ba-sponsorship__title {
+	  font-size: 3.875rem;
+	  color: #444444;
+	  font-weight: 900;
+	  padding-top: 85px;
+	  margin-bottom: 70px;
+  }
+  .ba-sponsorship {
+	  text-align: center;
+  }
+  .ba-sponsorship__list {
+	  display: flex;
+	  width: 100%;
+	  justify-content: space-between;
+	  margin-bottom: 110px;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+	  	color: #000;
+		font-size: 20px;
+		content: '';
+		line-height: 1;
+		font-family: slick;
+  }
+  .ba-sponsorship__item {
+	  opacity: 0.3;
   }
