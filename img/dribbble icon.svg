@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.375" height="17.32" viewBox="0 0 17.375 17.32">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #ccc;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="915.75" y="6588.34" width="17.375" height="17.32" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="dribbble_icon" data-name="dribbble icon" class="cls-1" d="M924.442,6605.65a8.65,8.65,0,1,1,8.693-8.65A8.681,8.681,0,0,1,924.442,6605.65Zm7.331-7.47a11,11,0,0,0-4.625-.31,31.583,31.583,0,0,1,1.442,5.27A7.426,7.426,0,0,0,931.773,6598.18Zm-4.431,5.63a30.345,30.345,0,0,0-1.584-5.6,0.1,0.1,0,0,0-.049.02,10.166,10.166,0,0,0-5.825,4.61A7.433,7.433,0,0,0,927.342,6603.81Zm-8.417-1.86a11.743,11.743,0,0,1,6.036-4.87l0.292-.09c-0.186-.42-0.389-0.84-0.6-1.26a27.727,27.727,0,0,1-7.631,1.06c0,0.07,0,.15,0,0.22A7.333,7.333,0,0,0,918.925,6601.95Zm-1.752-6.45a27.936,27.936,0,0,0,6.865-.9,45.079,45.079,0,0,0-2.753-4.27A7.415,7.415,0,0,0,917.173,6595.5Zm5.529-5.67a39.163,39.163,0,0,1,2.77,4.32,8.437,8.437,0,0,0,3.892-2.66,7.413,7.413,0,0,0-4.922-1.87A7.667,7.667,0,0,0,922.7,6589.83Zm7.487,2.51a9.847,9.847,0,0,1-4.146,2.91c0.173,0.35.338,0.71,0.493,1.07,0.054,0.13.108,0.26,0.16,0.38a17.428,17.428,0,0,1,5.17.24A7.344,7.344,0,0,0,930.189,6592.34Z" transform="translate(-915.75 -6588.34)"/>
+</svg>
