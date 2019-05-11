@@ -1,7 +1,6 @@
 body{
 	font-family: Poppins, sans-serif;
 }
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 /* Typography */
@@ -230,7 +229,6 @@ header .container {
 	color: #444444;
 	font-size: 2rem;
 	line-height: 3rem;
-	letter-spacing: 1px;
 	padding-top: 95px;
 }
 .ba-about__list {
@@ -242,16 +240,17 @@ header .container {
 .ba-about__list-item {
 	display: flex;
 	font-size: 2.75rem;
-	width: 50%;
-	padding-left: 98px;
-	padding-bottom: 70px;	
+	font-weight: 500;
+	width: 49%;
+	padding-left: 100px;
+	padding-bottom: 55px;	
 	
 }
 .ba-about__list-item p:before,
 .ba-about__list-item p:after {
 	content: '';
 	position: absolute;
-	left: -55px;
+	left: -40px;
 	top: 0;
 	width: 3px;
 	height: 15px;
@@ -352,7 +351,7 @@ p.fifth:after {
 	color: #fff;
 }
 .ba-about__list-item:hover {
-	font-size: 3.125rem;
+	font-size: 3.1rem;
 }
 
 .ba-battles {
@@ -371,8 +370,10 @@ p.fifth:after {
   }
   .ba-battles__text {
 	  font-size: 1.375rem;
-	  letter-spacing: 1px;
 	  padding-bottom: 50px;
+  }
+  .card-item img {
+	  width: 90%;
   }
   .ba-battles__list ul {
 	  display: flex;
@@ -383,7 +384,7 @@ p.fifth:after {
 	  justify-content: space-around;
   }
   .ba-battles__list {
-	  margin-bottom: 100px;
+	  margin-bottom: 65px;
   }
   .ba-battles__list ul li {
 	 transition: transform 0.2s;
@@ -401,8 +402,9 @@ p.fifth:after {
   }
   
   .ba-battles__list img {
-	  width: 100%;
-	  border-radius: 15px;
+	  width: 90%;
+	  border-radius: 10px;
+	  padding-bottom: 5px;
   }
   .ba-battles__list span {
 	  display: inline-block;
@@ -413,24 +415,23 @@ p.fifth:after {
   .ba-battles__list a {
 	  font-weight: 700;
 	  font-size: 1.5rem;
-	  line-height: 1.5;
   }
   .ba-battles__countdown-title {
 	  font-size: 3.875rem;
 	  font-weight: 800;
-	  padding-bottom: 65px;
+	  padding-bottom: 40px;
   }
   .ba-battles__countdown {
 	  display: flex;
 		justify-content: center;
 		font-family: 'Open Sans', sans-serif;
-		margin-bottom: 120px;
+		margin-bottom: 120px
 	  
   }
   .ba-battles__countdown > div {
 	  width: 14.035%;
 	  background-color: #4c0241;
-	  margin-left: 6.57%;
+	  margin: 0 3%;
 	  text-transform: uppercase;
   }
   .ba-battles__countdown  span {
@@ -455,7 +456,7 @@ p.fifth:after {
 	  font-size: 3.875rem;
 	  color: #444444;
 	  font-weight: 900;
-	  padding-top: 85px;
+	  padding-top: 75px;
 	  margin-bottom: 70px;
   }
   .ba-sponsorship {
@@ -477,4 +478,110 @@ p.fifth:after {
   }
   .ba-sponsorship__item {
 	  opacity: 0.3;
+	  transition:all, 0.3s, ease, 0.2s;
+
+  }
+  .ba-sponsorship__item:hover {
+	  opacity: 1;
+	  transition:all 1s;
+  }
+  .ba-jury {
+	  background-color: #ffe9eb;
+	  color: #444444;
+	  text-align: center;
+  }
+  .ba-jury a {
+	  color: #444444;
+	  font-size: 1.5rem;
+	  font-weight: 600;
+  }
+  .ba-jury__title {
+	font-size: 3.875rem;
+	font-weight: 900;
+	padding-top: 80px;
+	margin-bottom: 65px;
+  }
+  .ba-jury__list {
+	  display: flex;
+	  justify-content: space-between;
+	  padding-bottom: 95px;
+  }
+  .ba-jury__list span {
+	  display: block;
+	  padding-top: 10px;
+  }
+  .ba-jury img {
+	  padding-bottom: 10px;
+  }
+  .ba-contact {
+	  color: #444444;
+	  text-align: center;
+	  max-width: 750px;
+	  width: 100%;
+	  margin: 0 auto;
+  }
+  .ba-contact__title {
+	  font-size: 3.875rem;
+	  font-weight: 900;
+	  padding-top: 80px;
+	  padding-bottom: 55px;
+  }
+  .ba-contact__text {
+	  font-size: 1.375rem;
+	  margin-bottom: 67px;
+  }
+  .ba-contact__list {
+	  display: flex;
+	  flex-wrap: wrap;
+	 justify-content: space-between;
+	 max-width: 640px;
+	 width: 100%;
+	 margin: 0 auto;
+	  
+  }
+  .ba-contact__list li {
+	  width: 47.65%;
+	  font-size: 0.8126rem;
+	  padding-bottom: 20px;
+  }
+  .ba-contact__list li:last-of-type {
+	  width: 100%;
+	  padding-top: 120px;
+	  padding-bottom: 40px;
+  }
+  .ba-contact__list li input {
+	  width: 100%;
+  }
+  
+  .ba-contact__list input {
+	  padding: 15px 0;
+	  outline: none;
+	  color: #555555;
+	  border-style: none;
+	  border-bottom: 5px solid #555555;
+	  transition: height,.5s;
+  }
+  .ba-contact__list input::placeholder {
+	  color: #555;
+  }
+  .ba-contact__list input:focus {
+	  border-bottom: 2px solid #555555;
+  }
+  button[type='submit'] {
+	  margin-left: auto;
+	  margin-right: 15px;
+	  border: 0;
+	  color: #fff;
+	  background-color: #444;
+	  font-size: 0.75rem;
+	  font-weight: 600;
+	  padding: 18px 30px;
+	  text-transform: uppercase;
+	  border: 1px solid #fff;
+	  margin-bottom: 125px;
+  }
+  button[type='submit']:hover {
+	  background-color: #fff;
+	  color: #444;
+	  border: 1px solid #000;
   }
